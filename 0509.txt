@@ -1,0 +1,20 @@
+inline.html
+iframe.html
+html.html
+headline.html
+
+
+
+
+gallery-vertical-strip.html
+gallery-thumbstrip-above.html
+
+
+default.css
+
+a{}  <-注释掉
+
+
+default3.html 缺边界图 
+
+frame中resize后不能停止重播

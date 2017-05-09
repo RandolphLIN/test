@@ -102,22 +102,23 @@ img {
 
 #next{
   width: 25%;
-  height: 2%;
+  /*height: 2%;*/
   background-color: #EB6767;
 
   position: absolute;
-  padding-top:64%;
+  padding-top:74%;
   left:150%;
+  margin-top: -10%;
 }
 #next1{
-  width: 20%;
+  width: 50%;
   height: 60%;
   background-color: #EB6767;
 
   position: absolute;
   margin-top: 58%;
   padding-top:6%;
-  left:0;
+  left:-35%;
   padding-left: 140%;
 }
 /*.two{

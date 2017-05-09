@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>origin</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="default.css"/>
+
+	<!-- Scripts -->
+	 <script src="default.js"></script>   <!--点击 -->
+	<script src="parallax.js"></script>
+
+
+
+
+
+
+<!-- test -->
+<script type="text/javascript" src="../highslide/highslide-with-html.js"></script>
+<link rel="stylesheet" type="text/css" href="../highslide/highslide.css" />
+
+
+
+<script type="text/javascript">
+    hs.graphicsDir = '../highslide/graphics/';
+    hs.outlineType = 'rounded-white';
+</script>
+</head>
+<body>
+	<div id="container" class="container" >
+
+		<div class="info">			
+				
+<div class="highslide-html-content1" id="highslide-html">
+	<div class="highslide-header">
+		<ul>
+			<li class="highslide-move">
+				<a href="#" onclick="return false">Move</a>
+			</li>
+			<li class="highslide-close">
+				<a href="#" onclick="return hs.close(this)">Close</a>
+			</li>
+		</ul>
+	</div>
+	<div class="highslide-body">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam dapibus leo quis nisl. In lectus. Vivamus consectetuer pede in nisl. Mauris cursus pretium mauris. Suspendisse condimentum mi ac tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed enim. Ut vel ipsum. Cras consequat velit et justo. Donec mollis, mi at tincidunt vehicula, nisl mi luctus risus, quis scelerisque arcu nibh ac nisi. Sed risus. Curabitur urna. Aliquam vitae nisl. Quisque imperdiet semper justo. Pellentesque nonummy pretium tellus.
+	</div>
+    <div class="highslide-footer">
+        <div>
+            <span class="highslide-resize" title="Resize">
+                <span></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+		<a href="#" onclick="return hs.htmlExpand(this, { contentId: 'highslide-html' } )"
+			class="highslide1">
+		<img src="img/s2_btn1.png">
+		</a>
+		<a href="#" onclick="return hs.htmlExpand(this, { contentId: 'highslide-html' } )"
+			class="highslide2">
+		<img src="img/s2_btn2.png">
+		</a>		
+		<a href="#" onclick="return hs.htmlExpand(this, { contentId: 'highslide-html' } )"
+			class="highslide3">
+		<img src="img/s2_btn3.png">
+		</a>
+
+<!-- 
+		<img id="img1" src="img/s2_btn1.png">
+		<img id="img2" src="img/s2_btn2.png">
+		<img id="img3" src="img/s2_btn3.png"> -->
+
+	</div>
+
+	<div class="two">
+			<ul id="scene2" class="scene2">
+			<!-- <li class="layer" data-depth="1.00"><img src=""></li>-->	<!--不许上下移动--> 
+			<li class="layer" data-depth="0.6"><img src="img/s2_bg.jpg"></li>
+			<li class="layer" data-depth="0.66"><img src="img/s2_land.png"></li>
+			<li class="layer" data-depth="0.66"><img src="img/s2_beach.png"></li>
+			<li class="layer" data-depth="0.66"><img src="img/s2_house.png"></li>
+			<li class="layer" data-depth="0.5"><img src="img/s2_Bwave.png"></li>
+			<li class="layer" data-depth="0.3"><img src="img/s2_Bwave2.png"></li>
+			<li class="layer" data-depth="0.1"><img src="img/s2_Mwave2.png"></li>
+			<li class="layer" data-depth="0.2"><img src="img/s2_Mwave.png"></li>
+			<li class="layer" data-depth="0.3"><img src="img/s2_Fwave.png"></li>
+			<li class="layer" data-depth="0.15"><img src="img/s2_flower.png"></li>
+			<li class="layer" data-depth="0.2"><img src="img/s2_board.png"></li>
+			<li class="layer" data-depth="0.23"><img src="img/s2_body.png"></li>
+			<li class="layer" data-depth="0.2"><img src="img/s2_lhandf.png"></li>
+			<li class="layer" data-depth="0.3"><img src="img/s2_head.png"></li>
+		</ul>
+		<!-- <button onclick="removeDiv()">change</button> -->
+		</div>
+	</div>
+	</div>
+	<script type="text/javascript">
+		var scene2 = document.getElementById('scene2');
+		var parallax2 = new Parallax(scene2);
+	</script>
+</body>
+</html>

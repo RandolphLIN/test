@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>skatepark</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="default.css"/>
+
+	<!-- Scripts -->
+	<script src="default.js"></script> 
+	<script src="parallax.js"></script>
+</head>
+<body style="background-color: #c1c1c1;overflow: scroll;" >
+<script type="text/javascript">
+window.onload=function(){
+	w();
+	r();
+};
+
+function w(){
+var img1 =document.getElementById('img4');
+img1.addEventListener('mouseup', function(event){
+document.getElementById('img4').src="img/s2_btn3.png";
+console.log('up');
+
+window.location.assign("index.html");
+},false);
+img1.addEventListener('mousedown', function(event){
+document.getElementById('img4').src="img/s2_btn1.png";
+console.log('down');
+},false);};
+
+function r(){
+var img1 =document.getElementById('img4');
+img1.addEventListener('touchend', function(event){
+document.getElementById('img4').src="img/s2_btn3.png";
+console.log('up');
+
+window.location.assign("index.html");
+},false);
+img1.addEventListener('touchstart', function(event){
+document.getElementById('img4').src="img/s2_btn1.png";
+console.log('down');
+},false);};
+</script>
+
+	<div class="container1">
+		<div class="info">		
+		<img id="img4" src="img/s2_btn3.png">
+		<img id="img5" src="img/s2_btn3.png">
+		<img id="img6" src="img/s2_btn3.png">
+
+		<div id="next"></div>
+		<div id="next1"></div>
+	</div>
+		<div class="three">
+			<ul class="scene3" id="scene3">
+				<li class="layer" data-depth="0.6"><img class="img4" src="img\scene3\layout2.jpg"></li>
+				<li class="layer" data-depth="0.8"><img class="img4" src="img\scene3\s3_ground.png"></li>
+				<li class="layer" data-depth="0.4"><img class="img4" src="img\scene3\s3_bowl.png"></li>
+				<li class="layer" data-depth="0.4"><img class="img4" src="img\scene3\s3_b2.png"></li>
+				<li class="layer" data-depth="0.4"><img class="img4" src="img\scene3\s3_AB.png"></li>
+				<li class="layer" data-depth="0.4"><img class="img4" src="img\scene3\s3_FB.png"></li>
+				<li class="layer" data-depth="0.45"><img class="img4" src="img\scene3\s3_b.png"></li>
+				<li class="layer" data-depth="0.45"><img class="img4" src="img\scene3\s3_skater2.png"></li>
+				<li class="layer" data-depth="0.3"><img class="img4" src="img\scene3\s3_skater.png"></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+	
+
+		var scene3 = document.getElementById('scene3');
+		var parallax3 = new Parallax(scene3);
+
+	</script>
+</body>
+</html>

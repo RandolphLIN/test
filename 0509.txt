@@ -3,18 +3,22 @@ iframe.html
 html.html
 headline.html
 
-
-
-
 gallery-vertical-strip.html
 gallery-thumbstrip-above.html
-
 
 default.css
 
 a{}  <-注释掉
 
-
 default3.html 缺边界图 
 
 frame中resize后不能停止重播
+
+以test中的源码为准
+
+添加支持所有 mime类 .* application/octet-stream
+
+misc pointerlock
+
+
+examples-gh-pages

@@ -1,0 +1,160 @@
+
+test_tex.png
+size: 0,0
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+goblingirl/left-shoulder
+  rotate: false
+  xy: 226 ,1
+  size: 28 ,45
+  orig: 28 ,46
+  offset: 0 ,0
+  index: -1
+goblingirl/left-arm
+  rotate: false
+  xy: 94 ,253
+  size: 37 ,35
+  orig: 37 ,35
+  offset: 0,0
+  index: -1
+dagger
+  rotate: false
+  xy: 198 ,1
+  size: 26 ,108
+  orig: 26 ,108
+  offset: 0,0
+  index: -1
+spear
+  rotate: false
+  xy: 1 ,1
+  size: 22 ,368
+  orig: 22 ,368
+  offset: 0,0
+  index: -1
+goblingirl/left-hand
+  rotate: false
+  xy: 57 ,212
+  size: 35 ,40
+  orig: 35 ,40
+  offset: 0,0
+  index: -1
+goblingirl/left-foot
+  rotate: false
+  xy: 170 ,183
+  size: 65 ,31
+  orig: 65 ,31
+  offset: 0,0
+  index: -1
+goblingirl/left-lower-leg
+  rotate: false
+  xy: 25 ,156
+  size: 30 ,70
+  orig: 33 ,70
+  offset: -2 ,0
+  index: -1
+goblingirl/left-upper-leg
+  rotate: false
+  xy: 195 ,111
+  size: 33 ,70
+  orig: 33 ,70
+  offset: 0,0
+  index: -1
+goblingirl/neck
+  rotate: false
+  xy: 163 ,216
+  size: 33 ,41
+  orig: 35 ,41
+  offset: 0 ,0
+  index: -1
+goblingirl/torso
+  rotate: false
+  xy: 130 ,1
+  size: 66 ,96
+  orig: 68 ,96
+  offset: 0 ,0
+  index: -1
+goblingirl/pelvis
+  rotate: false
+  xy: 134 ,99
+  size: 59 ,43
+  orig: 62 ,43
+  offset: -1 ,0
+  index: -1
+goblingirl/right-foot
+  rotate: false
+  xy: 57 ,177
+  size: 63 ,33
+  orig: 63 ,33
+  offset: 0,0
+  index: -1
+goblingirl/right-lower-leg
+  rotate: false
+  xy: 97 ,99
+  size: 35 ,76
+  orig: 36 ,76
+  offset: -1 ,0
+  index: -1
+goblingirl/undie-straps
+  rotate: false
+  xy: 25 ,254
+  size: 55 ,19
+  orig: 55 ,19
+  offset: 0,0
+  index: -1
+goblingirl/undies
+  rotate: false
+  xy: 198 ,255
+  size: 36 ,29
+  orig: 36 ,29
+  offset: 0,0
+  index: -1
+goblingirl/right-upper-leg
+  rotate: false
+  xy: 134 ,144
+  size: 34 ,63
+  orig: 34 ,63
+  offset: 0,0
+  index: -1
+goblingirl/head
+  rotate: false
+  xy: 25 ,1
+  size: 103 ,79
+  orig: 103 ,81
+  offset: 0 ,0
+  index: -1
+goblingirl/eyes-closed
+  rotate: false
+  xy: 57 ,156
+  size: 37 ,15
+  orig: 37 ,21
+  offset: 0 ,-6
+  index: -1
+goblingirl/right-shoulder
+  rotate: false
+  xy: 122 ,209
+  size: 39 ,42
+  orig: 39 ,45
+  offset: 0 ,-3
+  index: -1
+goblingirl/right-arm
+  rotate: false
+  xy: 226 ,48
+  size: 22 ,50
+  orig: 28 ,50
+  offset: -3 ,0
+  index: -1
+goblingirl/right-hand
+  rotate: false
+  xy: 198 ,216
+  size: 35 ,37
+  orig: 36 ,37
+  offset: -1 ,0
+  index: -1
+shield
+  rotate: false
+  xy: 25 ,82
+  size: 70 ,72
+  orig: 70 ,72
+  offset: 0,0
+  index: -1

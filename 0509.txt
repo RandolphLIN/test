@@ -22,3 +22,31 @@ misc pointerlock
 
 
 examples-gh-pages
+
+http://localhost/github/test/EaselJS-master/examples/SpriteSheet.html
+
+http://localhost/github/test/EaselJS-master/examples/SpriteSheet_simple.html
+
+
+http://localhost/github/test/EaselJS-master/examples/Graphics_winding.html
+遮住多余部分
+
+http://localhost/github/test/EaselJS-master/examples/DragAndDrop_hitArea.html
+
+http://localhost/github/test/EaselJS-master/examples/DragAndDrop.html
+抓取
+
+http://localhost/github/test/EaselJS-master/examples/DOMElement.html
+控制div显示范围
+
+http://localhost/github/test/EaselJS-master/examples/CurveTo.html
+画图
+
+http://localhost/github/test/EaselJS-master/examples/Cache_update.html
+绘制星点
+
+http://localhost/github/test/EaselJS-master/examples/BitmapText.html
+字体
+
+http://localhost/github/test/EaselJS-master/examples/APITest.html
+api

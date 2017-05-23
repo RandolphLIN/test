@@ -8,13 +8,24 @@
 	<link href="../_assets/css/examples.css" rel="stylesheet" type="text/css"/> -->
 	<!-- <script src="../_assets/js/examples.js"></script> -->
 	<style type="text/css">
-		body{
+/*		body{
 			width: 100%;
-			height: 100%;
-		}
+			height:100%;
+		}*/
+
 		#canvas1{
-			width: 100%;
-			height: 100%;
+			/*padding-top: -20%;*/
+		  position: relative;
+		  max-width: 1920px;
+		  max-height: 1080px;
+		  background-color: #000000;
+		}
+
+		#testCanvas{
+			position:relative;
+			margin: 0 auto;
+			margin-top:5%;
+			margin-left: 35%;
 		}
 	</style>
 	<script src="../lib/easeljs-NEXT.combined.js"></script>
@@ -32,11 +43,11 @@
 		var spriteSheet = new createjs.SpriteSheet({
 				framerate: 10,
 				"images": ["../_assets/art/skater.png"],
-				"frames": {"regX": 20, "height": 392, "count": 64, "regY": 30, "width": 452},
+				"frames": {"regX": 120, "height": 394, "count": 24, "regY": 70, "width": 454},
 				// define two animations, run (loops, 1.5x speed) and jump (returns to run):
 				"animations": {
-					"run": [0, 25, "run", 1],
-					"jump": [1, 0, "jump"]
+					"run": [0, 1, "jump", 1],
+					"jump": [1, 0, "run"]
 				}
 			});
 
@@ -49,8 +60,8 @@
 		});
 
 		var grant = new createjs.Sprite(spriteSheet, "run");
-		grant.x = stage.canvas.width / 2;
-		grant.y = 22;
+		grant.x = stage.canvas.width / 4 +5;			//决定了播放序列帧位于该层的位置
+		grant.y = 65;
 
 		// Add Grant to the stage, and add it as a listener to Ticker to get updates each frame.
 		stage.addChild(grant);
@@ -64,7 +75,7 @@
 <body onload="init();">
 
 <div id="canvas1">
-	<canvas id="testCanvas" width="100%"></canvas>
+	<canvas id="testCanvas" width="454" height="394"></canvas>				<!--此处规定了播放序列帧的长宽-->
 </div>
 </body>
 </html>
